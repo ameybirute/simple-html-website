@@ -1,0 +1,158 @@
+--FORM 1
+<html>
+<head>
+<title> Experiment – 15 Pg-1 </title>
+</head>
+<body>
+<div style="background-color:#ff6347;">
+<p style="text-align:center" ><img src="sfitlogo.png" ; width="60"
+height="60"; >
+<br>
+<h1 style="text-align:center">St. Francis Institute of Technology
+</h1>
+<p style="text-align:center"> Mount Poinsur, Borivali (W), Mumbai
+- 400 103
+<br>
+<b>Phone No. </b> 022-28908585, 022-28908787 <b> Email:</b>
+sfedu@sfit.ac.in <b>Website:</b> www.sfit.ac.in</p>
+</p>
+</div>
+<div style="background-color:#ff6347;" float:left;>
+<p > <iframe src="frame1.html" width=100% ></iframe> </p>
+</div>
+<div style="background-color:#ff6347;" width=100%; float:
+centre;><center>
+<h3> Admission Registration Form </h3>
+<form>
+<label for="fname"> <b> First Name </b> </label> <br/>
+<input type="text" name="fname"> <br/>
+<label for="lname"> <b> Last Name </b> </label> <br/>
+<input type="text" name="lname"> <br/>
+<label for="email"> <b> Email </b> </label> <br/>
+<input type="email" name="email"> <br/>
+<label for="passd"> <b> Enter Password </b> </label> <br/>
+<input type="password" name="passd"> <br/>
+<label for="rpassd"> <b> Reenter Password </b> </label> <br/>
+<input type="password" name="rpassd"> <br/>
+<button onclick="alert('Registered Successfully')">Submit</button></center>
+</form>
+</div>
+<div style="background-color:#ff6347;" float:left;>
+<p > <iframe src="frame2.html" width=100% ></iframe> </p>
+</div>
+<p style="text-align:center">Made by - Amey Birute PID No.
+201011
+<br><a href="file:///D:/html/form2.html">This is Link
+to Page_2</a> </p>
+</body>
+</html>
+
+--FRAME 1
+<!DOCTYPE html>
+<html>
+<head>
+<title> Vision </title>
+</head>
+<body>
+<p > <b>Aim:</b> <br>
+To implement dynamic website using HTML
+<br>
+<b>Objective:</b> <br>
+Use of various Attributes and Formatting tags, Hyperlink,
+Insertion of Images, Tables, List and Multimedia, Blocks, Frames,
+Forms , Radio buttons, check boxes, Develop small 1-2 page website
+</p>
+</body>
+</html>
+
+--FRAME 2
+<!DOCTYPE html>
+<html>
+<head>
+<title> About </title>
+</head>
+<body>
+<p style="text-align:center"> <b>About:</b> <br>
+This is a webpage of Registration Form using HTML
+</p>
+</body>
+</html>
+
+--FORM 2
+<!DOCTYPE html>
+<head>
+<title> Experiment – 15 Pg-2 </title>
+</head>
+<body>
+<div style="background-color:#ff6347;">
+<p style="text-align:center" ><img src="sfitlogo.png" ;
+width="60" height="60"; >
+<br>
+<h1 style="text-align:center">St. Francis Institute of
+Technology </h1>
+<p style="text-align:center"> Mount Poinsur, Borivali (W),
+Mumbai - 400 103
+<br>
+<b>Phone No. </b> 022-28908585, 022-28908787 <b> Email:</b>
+sfedu@sfit.ac.in <b>Website:</b> www.sfit.ac.in</p>
+</p>
+</div>
+<div style="background-color:#ff6347;">
+<form>
+<p style="text-align:center"> Information
+<br>
+First name : <input type = "text" name = "first_name" />
+<br>
+Last name : <input type = "text" name ="last_name" />
+<br> </p>
+<p style="text-align:center">
+Multiple Line Input
+<br>
+<textarea rows = "10" cols = "40 " name = " Multiple Line Input
+">
+Enter Multiple Line Input here
+</textarea></p>
+<br>
+<p style="text-align:center">
+Do you wish to attend university (Radio buttons)
+<br>
+<input type = "radio" name ="college" value ="yes"> Yes i want to
+attend
+<input type ="radio" name ="college" value = "no"> NO i do not
+want to attend
+<input type="radio" name="lab" value="no">This is lab
+<br> </p>
+<p style="text-align:center">
+Career Choices ( checkbox ) <br>
+<input type = "checkbox" name = "software engineer" value = "on">
+Software Engineer <br>
+<input type = "checkbox" name = "mechanical engineer" value =
+"on"> Mechanical Engineer <br>
+<input type = "checkbox" name = "AI engineer" value = "on"> AI
+Engineer <br>
+<input type = "checkbox" name = "Electronic engineer" value =
+"on"> Electronic Engineer <br></p>
+<p style="text-align:center">Age of Student (Drop down) <br>
+<select name ="dropdown">
+<option value ="18" selected> 18 </option>
+<option value ="19"> 19 </option>
+<option value ="20"> 20 </option>
+<option value ="21"> 21 </option>
+<option value ="22"> 22 </option>
+</select></p>
+<br>
+<p style="text-align:center">File Upload <br>
+<input type ="file" name ="upload_file" accept ="image/*">
+<br></p>
+<p style="text-align:center">Date and Time
+<br>
+<label> Project Submission time : </label>
+<input type ="datetime-local" name =" ">
+<br></p>
+<center>
+<input type = "submit" name =" submit " value ="Submit"/>
+<input type="reset" name="reset" value="Reset"/>
+</center>
+</div>
+</form>
+</body>
